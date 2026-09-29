@@ -1,0 +1,44 @@
+{
+  "name": "dsh-file-link-menu",
+  "version": "1.0.0",
+  "description": "DSH 客户端插件：为聊天输出中的文件引用添加右键菜单（用本机应用打开 / 在文件管理器中定位 / 复制绝对或相对路径）",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "dsh-client",
+    "context-menu",
+    "file-link",
+    "open-with",
+    "reveal-in-file-manager"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "XcodeFish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XcodeFish/dsh-file-link-menu.git"
+  },
+  "homepage": "https://github.com/XcodeFish/dsh-file-link-menu#readme",
+  "bugs": {
+    "url": "https://github.com/XcodeFish/dsh-file-link-menu/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

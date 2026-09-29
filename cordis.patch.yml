@@ -1,0 +1,3 @@
+- insert:
+    - id: file-link-menu
+      name: 'dsh-file-link-menu'
