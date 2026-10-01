@@ -1,5 +1,5 @@
 {
-  "name": "dsh-file-link-menu",
+  "name": "@codefisher798/dsh-file-link-menu",
   "version": "1.0.0",
   "description": "DSH 客户端插件：为聊天输出中的文件引用添加右键菜单（用本机应用打开 / 在文件管理器中定位 / 复制绝对或相对路径）",
   "keywords": [
@@ -25,6 +25,9 @@
   },
   "engines": {
     "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "type": "module",
   "exports": {

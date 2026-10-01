@@ -44,7 +44,7 @@ DSH_HOME="$HOME/Library/Application Support/dsh-desktop/harness"
 
 - 也可写完整 URL：`https://github.com/XcodeFish/dsh-file-link-menu`（或 `git+https://…`），效果相同
 - 用 `github:XcodeFish/dsh-file-link-menu#v1.0.0`（tag）或 `#<commit>` 可锁版本
-- 发布到 npm 后可省事为：`plugin --profile web add dsh-file-link-menu`
+- 已发布到 npm（`@codefisher798/dsh-file-link-menu`），可省事为：`plugin --profile web add @codefisher798/dsh-file-link-menu`
 
 安装完成后**重启 DSH Desktop** 生效（client bundle 按文件 mtime 生成 rev 并版本化缓存，不重启不会重载）。
 
